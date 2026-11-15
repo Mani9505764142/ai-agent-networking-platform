@@ -1,0 +1,21 @@
+# ── Core Framework ───────────────────────────────────────────────────────────
+fastapi
+uvicorn[standard]
+pydantic
+pydantic-settings
+python-dotenv
+
+# ── Database (Supabase PostgreSQL + pgvector) ────────────────────────────────
+sqlalchemy
+psycopg2-binary
+pgvector
+
+# ── External AI Services ────────────────────────────────────────────────────
+google-genai
+cohere
+
+# ── HTTP Client ─────────────────────────────────────────────────────────────
+httpx
+
+# ── Testing ─────────────────────────────────────────────────────────────────
+pytest
